@@ -11,7 +11,4 @@ nav_order: 1
 
 {% bibliography -f {{ site.scholar.bibliography }} %}
 
-- key: aversa2023diffinfinite
-  image_url: /assets/img/1.jpg
-
 </div>
