@@ -9,10 +9,10 @@
   bibtex_show={true},
   pdf={https://arxiv.org/abs/2306.13384},
   website={https://github.com/marcoaversa/diffinfinite},
-  preview={assets/img/1.jpg},
 }
 
 @article{oala2023datadiff,
+  abbr={ICML},
   title={Data Models for Dataset Drift Controls in Machine Learning With Optical Images},
   author={Oala, Luis and Aversa, Marco and Nobis, Gabriel and Willis, Kurt and Neuenschwander, Yoan and Buck, Mich{\`e}le and Matek, Christian and Extermann, Jerome and Pomarico, Enrico and Samek, Wojciech and others},
   journal={International Conference on Machine Learning, Differentiable Almost Everything Workshop},
@@ -28,6 +28,7 @@
 }
 
 @article{oala2023data,
+  abbr={TMLR},
   title={Data Models for Dataset Drift Controls in Machine Learning With Optical Images},
   author={Oala, Luis and Aversa, Marco and Nobis, Gabriel and Willis, Kurt and Neuenschwander, Yoan and Buck, Mich{\`e}le and Matek, Christian and Extermann, Jerome and Pomarico, Enrico and Samek, Wojciech and others},
   journal={Transactions on Machine Learning Research},
@@ -35,13 +36,33 @@
 }
 
 @article{aversaphysical,
+  abbr={NeurIPS},
   title={Physical Data Models in Machine Learning Imaging Pipelines},
   journal={Advances in Neural Information Processing Systems, Machine Learning and the Physical Science Workshop},
   author={Aversa, Marco and Oala, Luis and Clausen, Christoph and Dotphoton, AG and Murray-Smith, Roderick and Sanguinetti, Bruno},
+  pdf={https://ml4physicalsciences.github.io/2022/files/NeurIPS_ML4PS_2022_136.pdf},
+  website={https://neurips.cc/virtual/2022/56248},
+  abstract={Light propagates from the object through the optics up to the sensor to create an
+image. Once the raw data is collected, it is processed through a complex image
+signal processing (ISP) pipeline to produce an image compatible with human
+perception. However, this processing is rarely considered in machine learning
+modelling because available benchmark data sets are generally not in raw format.
+This study shows how to embed the forward acquisition process into the machine
+learning model. We consider the optical system and the ISP separately. Following
+the acquisition process, we start from a drone and airship image dataset to emulate
+realistic satellite raw images with on-demand parameters. The end-to-end process
+is built to resemble the optics and sensor of the satellite setup. These parameters
+are satellite mirror size, focal length, pixel size and pattern, exposure time and
+atmospheric haze. After raw data collection, the ISP plays a crucial role in neural
+network robustness. We jointly optimize a parameterized differentiable image
+processing pipeline with a neural network model. This can lead to speed up and
+stabilization of classifier training at a margin of up to 20\% in validation accuracy.
+},
   year={2022}
 }
 
 @article{aversa2022data,
+  abbr={NeurIPS},
   title={Data-centric AI workflow based on compressed raw images},
   author={Aversa, Marco and Malik, Ziad and Geier, Phillip and Droz, Fabien and Upegui, Andres and Murray-Smith, Roderick and Clausen, Christoph and Sanguinetti, Bruno},
   journal={Proceedings of the OBPDC2022-8th Internationl Worshop on Onboard payload data compression},
@@ -49,6 +70,7 @@
 }
 
 @article{mitton2022bessel,
+  abbr={NeurIPS},
   title={Bessel Equivariant Networks for Inversion of Transmission Effects in Multi-Mode Optical Fibres},
   author={Mitton, Joshua and Mekhail, Simon and Padgett, Miles and Faccio, Daniele and Aversa, Marco and Murray-Smith, Roderick},
   journal={Advances in Neural Information Processing Systems},
@@ -58,8 +80,14 @@
 }
 
 @article{falsi2021direct,
+  abbr={Phys. Rev. Lett.},
   title={Direct observation of fractal-dimensional percolation in the 3D cluster dynamics of a ferroelectric supercrystal},
   author={Falsi, Ludovica and Aversa, Marco and Di Mei, Fabrizio and Pierangeli, Davide and Xin, Feifei and Agranat, Aharon J and DelRe, Eugenio},
+  abstract={We perform percolation analysis of crossed-polarizer transmission images in a biased nanodisordered bulk KTN: Li perovskite. 
+  Two distinct percolative transitions are identified at two electric field thresholds. 
+  The low-field transition involves a directional fractal chain of dimension D= 1.65, while the high-field transition has a dimension D> 2. 
+  Direct cluster imaging in the volume is achieved using high-resolution orthographic 3D projections based on giant refraction. 
+  Percolation is attributed to a full-3D domain reorientation that mediates the transition from a ferroelectric supercrystal state to a disordered domain mosaic.},
   journal={Physical Review Letters},
   volume={126},
   number={3},
