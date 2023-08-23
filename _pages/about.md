@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: [Google](https://www.google.com/)
+subtitle: 
 # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
