@@ -11,14 +11,7 @@ nav_order: 1
 
 {% bibliography -f {{ site.scholar.bibliography }} %}
 
-{% if entry.key == "aversa2023diffinfinite" %}
-  <img src="assets/img/1.jpg" />
-  <p>{{ entry.abstract }}</p>
-{% elsif entry.key == "oala2023data" %}
-  <img src="assets/img/2.jpg" />
-  <p>{{ entry.abstract }}</p>
-{% else %}
-  <!-- Default rendering for other entries -->
-{% endif %}
+- key: aversa2023diffinfinite
+  image_url: /assets/img/1.jpg
 
 </div>
