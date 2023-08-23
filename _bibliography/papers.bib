@@ -2,6 +2,7 @@
 ---
 
 @article{aversa2023diffinfinite,
+  abbr={Under Review},
   title={DiffInfinite: Large Mask-Image Synthesis via Parallel Random Patch Diffusion in Histopathology},
   author={Aversa, Marco and Nobis, Gabriel and H{\"a}gele, Miriam and Standvoss, Kai and Chirica, Mihaela and Murray-Smith, Roderick and Alaa, Ahmed and Ruff, Lukas and Ivanova, Daniela and Samek, Wojciech and others},
   journal={arXiv preprint arXiv:2306.13384},
@@ -39,7 +40,7 @@
 @article{oala2023data,
   abbr={TMLR},
   title={Data Models for Dataset Drift Controls in Machine Learning With Optical Images},
-  author={Oala, Luis and Aversa, Marco and Nobis, Gabriel and Willis, Kurt and Neuenschwander, Yoan and Buck, Mich{\`e}le and Matek, Christian and Extermann, Jerome and Pomarico, Enrico and Samek, Wojciech and others},
+  author={Oala\textsuperscript{*}, Luis and Aversa\textsuperscript{*}, Marco and Nobis, Gabriel and Willis, Kurt and Neuenschwander, Yoan and Buck, Mich{\`e}le and Matek, Christian and Extermann, Jerome and Pomarico, Enrico and Samek, Wojciech and others},
   abstract={Camera images are ubiquitous in machine learning research. 
   They also play a central role in the delivery of important public services spanning medicine or environmental surveying. 
   However, the application of machine learning models in these domains has been limited because of robustness concerns. 
@@ -62,6 +63,7 @@
   as part of this work. In total, the two datasets, Raw-Microscopy and Raw-Drone, comprise 1,488 scientifically calibrated reference 
   raw sensor measurements, 8,928 raw intensity variations as well as 17,856 images processed through twelve data models with different 
   configurations. A guide to access the open code and datasets is available at https://github.com/aiaudit-org/raw2logit.},
+  bibtex_show={true},
   journal={Transactions on Machine Learning Research},
   pdf={https://openreview.net/pdf?id=I4IkGmgFJz},
   year={2023}
@@ -75,21 +77,21 @@
   pdf={https://ml4physicalsciences.github.io/2022/files/NeurIPS_ML4PS_2022_136.pdf},
   website={https://neurips.cc/virtual/2022/56248},
   abstract={Light propagates from the object through the optics up to the sensor to create an
-image. Once the raw data is collected, it is processed through a complex image
-signal processing (ISP) pipeline to produce an image compatible with human
-perception. However, this processing is rarely considered in machine learning
-modelling because available benchmark data sets are generally not in raw format.
-This study shows how to embed the forward acquisition process into the machine
-learning model. We consider the optical system and the ISP separately. Following
-the acquisition process, we start from a drone and airship image dataset to emulate
-realistic satellite raw images with on-demand parameters. The end-to-end process
-is built to resemble the optics and sensor of the satellite setup. These parameters
-are satellite mirror size, focal length, pixel size and pattern, exposure time and
-atmospheric haze. After raw data collection, the ISP plays a crucial role in neural
-network robustness. We jointly optimize a parameterized differentiable image
-processing pipeline with a neural network model. This can lead to speed up and
-stabilization of classifier training at a margin of up to 20\% in validation accuracy.
-},
+  image. Once the raw data is collected, it is processed through a complex image
+  signal processing (ISP) pipeline to produce an image compatible with human
+  perception. However, this processing is rarely considered in machine learning
+  modelling because available benchmark data sets are generally not in raw format.
+  This study shows how to embed the forward acquisition process into the machine
+  learning model. We consider the optical system and the ISP separately. Following
+  the acquisition process, we start from a drone and airship image dataset to emulate
+  realistic satellite raw images with on-demand parameters. The end-to-end process
+  is built to resemble the optics and sensor of the satellite setup. These parameters
+  are satellite mirror size, focal length, pixel size and pattern, exposure time and
+  atmospheric haze. After raw data collection, the ISP plays a crucial role in neural
+  network robustness. We jointly optimize a parameterized differentiable image
+  processing pipeline with a neural network model. This can lead to speed up and
+  stabilization of classifier training at a margin of up to 20\% in validation accuracy.},
+  bibtex_show={true},
   year={2022}
 }
 
@@ -119,6 +121,7 @@ stabilization of classifier training at a margin of up to 20\% in validation acc
   time and atmospheric haze. Then, we discuss characterising and improving the performance and tolerances of the neural network through 
   the use of on-the-fly generation of data that accurately reflects the statistics of the target system.},
   pdf={https://arodes.hes-so.ch/record/11774/files/Upegui_2022_data-centric_AI_workflow_based_compressed_raw_images.pdf},
+  bibtex_show={true},
   year={2022},
 }
 
@@ -143,6 +146,7 @@ stabilization of classifier training at a margin of up to 20\% in validation acc
   This is a result of improving the trainable parameter requirement from O(N4) to O(m), where N is pixel size and m is
   number of fibre modes. Finally, this model generalises to new images, outside of
   the set of training data classes, better than previous models.},
+  bibtex_show={true},
   pdf={https://proceedings.neurips.cc/paper_files/paper/2022/file/666dd0d92a64396e753c691db93493d4-Paper-Conference.pdf}
 }
 
@@ -160,6 +164,7 @@ stabilization of classifier training at a margin of up to 20\% in validation acc
   number={3},
   pages={037601},
   year={2021},
+  bibtex_show={true},
   publisher={APS}
 }
 
