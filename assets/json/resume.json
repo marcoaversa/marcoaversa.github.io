@@ -18,30 +18,51 @@
   ],
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "name": "DotPhoton AC",
+      "position": "Researcher",
+      "url": "https://www.dotphoton.com/",
+      "startDate": "2020-03-02",
       "highlights": [
-        "Relativity"
+        "Led the histopathology group in the European Synthetic Realistic (SyReal) project.",
+        "Created collaborations with industrial and academic research groups (HEPIA, Fraunhofer HHI, University of California, AIgnostics, LMU Munich).",
+        "Developed end-to-end features for JetRaw."
+      ]
+    },
+    {
+      "name": "University of Glasgow",
+      "position": "Teaching Assistant",
+      "url": "",
+      "startDate": "2020-03-02",
+      "endDate": "2023-08-31",
+      "summary": "Teaching Courses:",
+      "courses": [
+        "Programming and Systems Development (Python, Java, SQL), 2019/2020",
+        "Machine Learning & Artificial Intelligence for Data Scientists, 2019/2020",
+        "Deep Learning for MSc, 2019/2020",
+        "Data Fundamentals, 2020/2021",
+        "Introduction to Data Science & Systems, 2020/2021",
+        "Machine Learning, 2020/2021",
+        "Machine Learning & Artificial Intelligence for Data Scientist, 2020/2021",
+        "Deep Learning for MSc, 2022/2023"
       ]
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
+      "institution": "University of Glasgow, United Kingdom",
       "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "area": "Computing Science",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "startDate": "2020-03-02",
+      "endDate": "",
       "score": "",
-      "courses": [
-        "Theory of Relativity"
-      ]
+      "summary": "The aim of my PhD thesis is to incorporate physical insight about a partially known system into the machine learning architecture or its learning process.",
+      "highlights": [
+        "Successfully integrated forward models into machine learning systems, improving model accuracy by ∼ 20%, interpretability, and robustness while reducing dependency on extensive training data.",
+        "Designed and developed satellite imagery emulation from drone data based on optics and sensor prior knowledge.",
+        "Developed DiffInfinite, a novel generative model to generate arbitrarily large images from sparse annotated data. The model samples in half of the time and with higher fidelity than previous methods."
+      ],
     }
   ],
   "awards": [
