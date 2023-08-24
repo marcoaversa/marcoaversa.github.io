@@ -21,7 +21,7 @@
       "name": "DotPhoton AC",
       "position": "Researcher",
       "url": "https://www.dotphoton.com/",
-      "startDate": "2020-03-02",
+      "startDate": "2020-03",
       "highlights": [
         "Led the histopathology group in the European Synthetic Realistic (SyReal) project.",
         "Created collaborations with industrial and academic research groups (HEPIA, Fraunhofer HHI, University of California, AIgnostics, LMU Munich).",
@@ -32,8 +32,8 @@
       "name": "University of Glasgow",
       "position": "Teaching Assistant",
       "url": "",
-      "startDate": "2020-03-02",
-      "endDate": "2023-08-31",
+      "startDate": "2020-03",
+      "endDate": "2023-08",
       "summary": "Teaching Courses:",
       "courses": [
         "Programming and Systems Development (Python, Java, SQL), 2019/2020",
@@ -45,6 +45,14 @@
         "Machine Learning & Artificial Intelligence for Data Scientist, 2020/2021",
         "Deep Learning for MSc, 2022/2023"
       ]
+    },
+    {
+      "name": "Sapienza, University of Rome",
+      "position": "Postgraduate Research",
+      "url": "",
+      "startDate": "2019-03",
+      "endDate": "2019-10",
+      "summary": "Directly observed and analysed second-order phase transition in ferroelectric nonlinear crystals for the first time\\nTechnologies/Skills: nonlinear optics, statistical mechanics, spatial light modulators (SLMs) .\\nPhotonics Group, led by Prof. Eugenio Del Re\\nProject: Ferroelectric Cluster Dynamics in Bias Super-Crystals",
     }
   ],
   "volunteer": [],
@@ -62,17 +70,17 @@
         "Successfully integrated forward models into machine learning systems, improving model accuracy by ∼ 20%, interpretability, and robustness while reducing dependency on extensive training data.",
         "Designed and developed satellite imagery emulation from drone data based on optics and sensor prior knowledge.",
         "Developed DiffInfinite, a novel generative model to generate arbitrarily large images from sparse annotated data. The model samples in half of the time and with higher fidelity than previous methods."
-      ],
+      ]
     }
   ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
+  // "awards": [
+  //   {
+  //     "title": "Nobel Prize in Physics",
+  //     "date": "1921-11-01",
+  //     "awarder": "Royal Swedish Academy of Sciences",
+  //     "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+  //   }
+  // ],
   "certificates": [],
   "publications": [],
   "skills": [],
