@@ -76,11 +76,10 @@
     {
       "institution": "University of Glasgow, United Kingdom",
       "url": "https://www.gla.ac.uk/schools/computing/",
-      "area": "",
-      "studyType": "PhD, Computing Science",
+      "area": "Computing Science",
+      "studyType": "PhD",
       "startDate": "2020-03",
       "endDate": "",
-      "score": "",
       "summary": "The aim of my PhD thesis is to incorporate physical insight about a partially known system into the machine learning architecture or its learning process.",
       "highlights": [
         "Successfully integrated forward models into machine learning systems, improving model accuracy by ∼ 20%, interpretability, and robustness while reducing dependency on extensive training data.",
@@ -91,13 +90,11 @@
     {
       "institution": "Sapienza University of Rome, Italy",
       "url": "https://www.phys.uniroma1.it/fisica/en",
-      "area": "Cum Laude",
-      "studyType": "MSc, Physics",
+      "area": "Condensed Matter Physics",
+      "honors": "Cum Laude",
+      "studyType": "MSc",
       "startDate": "2014-09",
-      "endDate": "2019-10",
-      "score": "",
-      "summary": "Curriculm in Condensed Matter Physics",
-      "highlights": ""
+      "endDate": "2019-10"
     }
   ],
   "awards": [],
