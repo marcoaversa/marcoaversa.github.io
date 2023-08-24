@@ -89,6 +89,7 @@
       "institution": "Sapienza University of Rome, Italy",
       "url": "https://www.phys.uniroma1.it/fisica/en",
       "honors": "Cum Laude",
+      "area": "Curriculum: Condensed Matter Physics",
       "studyType": "MSc, Physics",
       "startDate": "2014-09",
       "endDate": "2019-10"
@@ -108,7 +109,7 @@
       "fluency": "Fluent"
     }
   ],
-  "interests": [],
+  "interests": ["Cooking", "Hiking", "Videogames"],
   "references": [],
   "projects": []
 }
