@@ -25,7 +25,7 @@
       "highlights": [
         "Led the histopathology group in the European Synthetic Realistic (SyReal) project.",
         "Collaborated with industrial and academic research groups (HEPIA, Fraunhofer HHI, University of California, AIgnostics, LMU Munich).",
-        "Developed end-to-end features for JetRaw."
+        "Developed end-to-end features for ML cloud service."
       ]
     },
     {
@@ -84,15 +84,14 @@
         "Designed and developed satellite imagery emulation from drone data based on optics and sensor prior knowledge.",
         "Developed DiffInfinite, a novel generative model to generate arbitrarily large images from sparse annotated data. The model samples in half of the time and with higher fidelity than previous methods for large content generation."
       ]
-    }
-
+    },
     {
       "institution": "Sapienza University of Rome, Italy",
       "url": "https://www.phys.uniroma1.it/fisica/en",
       "area": "Cum Laude",
       "studyType": "MSc, Physics",
-      "startDate": "September 2014",
-      "endDate": "October 2019",
+      "startDate": "2014-09",
+      "endDate": "2019-10",
       "score": "",
       "summary": "Curriculm in Condensed Matter Physics",
       "highlights": ""
