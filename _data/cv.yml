@@ -1,12 +1,12 @@
 - title: General Information
   type: map
   contents:
-    # - name: Full Name
-    #   value: Albert Einstein
-    # - name: Date of Birth
-    #   value: 14th March 1879
+    - name: Full Name
+      value: Marco Aversa
+    - name: Date of Birth
+      value: 20th May 1995
     - name: Languages
-      value: English, Italian
+      value: English (Fluent), Italian (Native)
 
 - title: Education
   type: time_table
@@ -41,12 +41,6 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
 
     - title: Director
       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
