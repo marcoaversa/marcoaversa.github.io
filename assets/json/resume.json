@@ -18,7 +18,7 @@
   ],
   "work": [
     {
-      "company": "DotPhoton AC",
+      "name": "DotPhoton AC",
       "position": "Researcher",
       "url": "https://www.dotphoton.com/",
       "startDate": "2020-03",
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "company": "University of Glasgow",
+      "name": "University of Glasgow",
       "position": "Teaching Assistant",
       "url": "",
       "startDate": "2020-03",
@@ -47,27 +47,25 @@
       ]
     },
     {
-      "company": "Sapienza, University of Rome",
-      "position": "Postgraduate Research",
-      "url": "",
+      "name": "Sapienza, University of Rome",
+      "position": "Postgraduate Research, Photonics Group led by Prof. Eugenio Del Re",
+      "url": "https://sites.google.com/site/eugeniodelre/",
       "startDate": "2019-03",
       "endDate": "2019-10",
       "summary": "Directly observed and analysed second-order phase transition in ferroelectric nonlinear crystals for the first time.",
       "highlights": ["Technologies/Skills: nonlinear optics, statistical mechanics, spatial light modulators (SLMs).",
-      "Photonics Group, led by Prof. Eugenio Del Re",
       "Project: Ferroelectric Cluster Dynamics in Biased Super-Crystals"
     ]
     },
     {
-      "company": "Sapienza, University of Rome",
-      "position": "Postgraduate Research",
-      "url": "",
+      "name": "Sapienza, University of Rome",
+      "position": "Postgraduate Research, Active Matter Group led by Prof. Roberto Di Leonardo.",
+      "url": "https://www.roma1.infn.it/~dileorob/",
       "startDate": "2019-03",
       "endDate": "2019-10",
       "summary": "Investigated light forces on crystal spheres using optical tweezers.",
       "highlights": [
       "Technologies/skills: confocal microscopy, optical tweezers, spatial light modulators (SLMs), Python",
-      "Experimental research group Active Matter Group led by Prof. Roberto Di Leonardo.",
       "Project: Trapping Forces in Optical Tweezers."]
     }
 
@@ -80,7 +78,7 @@
       "url": "https://www.gla.ac.uk/schools/computing/",
       "area": "",
       "studyType": "PhD, Computing Science",
-      "startDate": "2020-03-02",
+      "startDate": "2020-03",
       "endDate": "",
       "score": "",
       "summary": "The aim of my PhD thesis is to incorporate physical insight about a partially known system into the machine learning architecture or its learning process.",
