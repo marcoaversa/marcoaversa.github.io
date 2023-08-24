@@ -35,7 +35,7 @@
       "startDate": "2020-03",
       "endDate": "2023-08",
       "summary": "Teaching Courses:",
-      "courses": [
+      "highlights": [
         "Programming and Systems Development (Python, Java, SQL), 2019/2020",
         "Machine Learning & Artificial Intelligence for Data Scientists, 2019/2020",
         "Deep Learning for MSc, 2019/2020",
@@ -60,7 +60,10 @@
       "url": "",
       "startDate": "2019-03",
       "endDate": "2019-10",
-      "summary": "Investigated light forces on crystal spheres using optical tweezers.\nTechnologies/skills: confocal microscopy, optical tweezers, spatial light modulators (SLMs), Python\nExperimental research group Active Matter Group led by Prof. Roberto Di Leonardo.\nProject: Trapping Forces in Optical Tweezers."
+      "summary": ["Investigated light forces on crystal spheres using optical tweezers.",
+      "Technologies/skills: confocal microscopy, optical tweezers, spatial light modulators (SLMs), Python",
+      "Experimental research group Active Matter Group led by Prof. Roberto Di Leonardo.",
+      "Project: Trapping Forces in Optical Tweezers."]
     }
 
     
@@ -79,7 +82,7 @@
       "highlights": [
         "Successfully integrated forward models into machine learning systems, improving model accuracy by ∼ 20%, interpretability, and robustness while reducing dependency on extensive training data.",
         "Designed and developed satellite imagery emulation from drone data based on optics and sensor prior knowledge.",
-        "Developed DiffInfinite, a novel generative model to generate arbitrarily large images from sparse annotated data. The model samples in half of the time and with higher fidelity than previous methods."
+        "Developed DiffInfinite, a novel generative model to generate arbitrarily large images from sparse annotated data. The model samples in half of the time and with higher fidelity than previous methods for large content generation."
       ]
     }
   ],
