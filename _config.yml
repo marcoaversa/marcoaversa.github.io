@@ -72,12 +72,12 @@ github_username: marcoaversa # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: marco_avers # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
+linkedin_username: marco-aversa # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: XSd_7RgAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: # your ORCID ID
+orcid_id: 0000-0002-7724-7488 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -163,25 +163,25 @@ external_sources:
 # Collections
 # -----------------------------------------------------------------------------
 
-# collections:
-#   news:
-#     defaults:
-#       layout: post
-#     output: true
-#     permalink: /news/:path/
-#   projects:
-#     output: true
-#     permalink: /projects/:path/
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
 
-# announcements:
-#   enabled: false
-#   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-#   limit: 5 # leave blank to include all the news in the `_news` folder
+announcements:
+  enabled: false
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
 
-# latest_posts:
-#   enabled: false
-#   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-#   limit: 3 # leave blank to include all the blog posts
+latest_posts:
+  enabled: false
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
