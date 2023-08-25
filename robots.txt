@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://marcoaversa.nethttps://marcoaversa.github.io/sitemap.xml
+Sitemap: https://marcoaversa.github.io/sitemap.xml
