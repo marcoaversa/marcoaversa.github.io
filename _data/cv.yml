@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Marco Aversa
+      value: Albert Einstein
     - name: Date of Birth
-      value: 20th May 1995
+      value: 14th March 1879
     - name: Languages
-      value: English (Fluent), Italian (Native)
+      value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD Computing Science
-      institution: University of Glasgow, United Kingdom
-      year: 2020 - 2023
+    - title: PhD
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
       description:
         - Description 1.
         - Description 2.
@@ -21,9 +21,9 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: M.Sc. Physics
-      institution: Sapienza University of Rome, Italy
-      year: 2014-2019
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
       description:
         - Description 1.
         - Description 2.
@@ -31,9 +31,9 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Researcher
-      institution: DotPhoton
-      year: 2020 - 2023
+    - title: Professor of Theoretical Physics
+      institution: Institute for Advanced Study, Princeton University
+      year: 1933 - 1955
       description:
         - Description 1.
         - Description 2.
@@ -41,6 +41,12 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
+    - title: Visiting Professor
+      institution: California Institute of Technology, Pasadena, California, US
+      year: 1933
+      description:
+        - Description 1.
+        - Description 2.
 
     - title: Director
       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.

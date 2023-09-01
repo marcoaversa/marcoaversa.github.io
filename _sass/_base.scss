@@ -608,18 +608,10 @@ footer.sticky-bottom {
             }
           }
         }
-      }
 
-      .award {
-        color: var(--global-theme-color) !important;
-        border: 1px solid var(--global-theme-color);
-        display: inline-block;
-        background-color: var(--global-bg-color);
-        a {
-          color: white;
-          &:hover {
-            text-decoration: none;
-          }
+        .award {
+          color: var(--global-theme-color) !important;
+          border: 1px solid var(--global-theme-color);
         }
       }
 
