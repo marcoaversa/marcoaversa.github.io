@@ -611,18 +611,38 @@ footer.sticky-bottom {
       }
 
       .award {
-        color: var(--global-theme-color) !important;
-        border: 1px solid var(--global-theme-color);
-        display: inline-block;
-        background-color: var(--global-bg-color);
-        a {
-          // color: white;
-          color: var(--global-theme-color);
-          &:hover {
-            text-decoration: none;
+        height: 2rem;
+        margin-bottom: 0.5rem;
+
+        award {
+          display: inline-block;
+          background-color: var(--global-theme-color);
+          padding-left: 1rem;
+          padding-right: 1rem;
+
+          a {
+            color: white;
+
+            &:hover {
+              text-decoration: none;
+            }
           }
         }
       }
+
+      // .award {
+      //   color: var(--global-theme-color) !important;
+      //   border: 1px solid var(--global-theme-color);
+      //   display: inline-block;
+      //   background-color: var(--global-bg-color);
+      //   a {
+      //     // color: white;
+      //     color: var(--global-theme-color);
+      //     &:hover {
+      //       text-decoration: none;
+      //     }
+      //   }
+      // }
 
       .title {
         font-weight: bolder;
