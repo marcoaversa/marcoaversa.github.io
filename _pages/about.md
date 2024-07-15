@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-descriptions: PhD Student @ School of Computing Science, University of Glasgow <br> <a href="https://www.dcs.gla.ac.uk/~rod/">Inference, Dynamics and Interaction Group</a> <br> <a href="https://www.physics.gla.ac.uk/xtremeLight/">Xtreme Light Group</a> <br> Researcher @ <a href="https://www.dotphoton.com/">DotPhoton</a> <br> Co-organizer @ <a href="https://aiaudit.org">aiaudit.org </a> 
+# descriptions: PhD Student @ School of Computing Science, University of Glasgow <br> <a href="https://www.dcs.gla.ac.uk/~rod/">Inference, Dynamics and Interaction Group</a> <br> <a href="https://www.physics.gla.ac.uk/xtremeLight/">Xtreme Light Group</a> <br> Researcher @ <a href="https://www.dotphoton.com/">DotPhoton</a> <br> Co-organizer @ <a href="https://aiaudit.org">aiaudit.org </a> 
 # subtitle: 
 # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
