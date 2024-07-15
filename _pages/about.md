@@ -18,8 +18,17 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Hi! I'm Marco Aversa, a Research Scientist deeply passionate about the intersection of Machine Learning, Generative Models and Physics. I'm currently at the end of my PhD in Computer Science at the University of Glasgow, with a focus on Deep Learning for Computer Vision. My background in Physics drives my curiosity, especially when it comes to understanding the mysteries of neural networks. Often, these networks are seen as "black boxes," but I'm determined to use my physical insights to shed light on their workings. During my academic journey, I incorporated physical priors into machine learning architectures, aiming to embed knowledge of partially known systems directly into the learning processes.
+<!-- Hi! I'm Marco Aversa, a Research Scientist deeply passionate about the intersection of Machine Learning, Generative Models and Physics. I'm currently at the end of my PhD in Computer Science at the University of Glasgow, with a focus on Deep Learning for Computer Vision. My background in Physics drives my curiosity, especially when it comes to understanding the mysteries of neural networks. Often, these networks are seen as "black boxes," but I'm determined to use my physical insights to shed light on their workings. During my academic journey, I incorporated physical priors into machine learning architectures, aiming to embed knowledge of partially known systems directly into the learning processes.
 
-My interests span across Data-Centric AI, Physics-Infused Neural Networks, Generative Models and Optical Neural Networks. Each of these domains represents a step towards bridging the gap between the deterministic world of physics and the evolving landscape of machine learning. 
+My interests span across Data-Centric AI, Physics-Infused Neural Networks, Generative Models and Optical Neural Networks. Each of these domains represents a step towards bridging the gap between the deterministic world of physics and the evolving landscape of machine learning.  -->
 
-If you're interested in discussing any of these topics or just want to have a chat, please feel free to contact me!
+Hi! I'm a passionate Researcher deeply passionate about the intersection of Machine Learning, Generative Models and Physics. 
+
+Given how quickly the world moves, I don't want to take up too much of your time. Here's a quick bullet list about me!
+
+💼 I’m currently working at DotPhoton AG, where I design scalable data infrastructures and develop generative models for industrial applications.
+📚 I completed my PhD in Computer Science at the University of Glasgow, focusing on integrating physical prior knowledge into machine learning workflows for computer vision.
+🔬 3+ years of experience with generative models / diffusion models (see publications 😉).
+🖼️ I'm currently really hyped by generative models but I'm always excited to learn new and exotic research!
+
+If you're interested in having a chat, please feel free to contact me!
