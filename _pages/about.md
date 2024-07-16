@@ -26,12 +26,12 @@ Hi! I'm a passionate Researcher deeply passionate about the intersection of Mach
 
 Given how quickly the world moves, I don't want to take up too much of your time. Here's a quick bullet list about me!
 
-💼 I’m currently working at DotPhoton AG, where I design scalable data infrastructures and develop generative models for industrial applications.
+💼 I’m currently working at [Dotphoton](https://www.dotphoton.com), where I design scalable data infrastructures and develop generative models for industrial applications.
 
 📚 I completed my PhD in Computer Science at the University of Glasgow, focusing on integrating physical prior knowledge into machine learning workflows for computer vision.
 
-🔬 3+ years of experience with generative models / diffusion models (see publications 😉).
+🔬 3+ years of experience with generative models / diffusion models / machine learning in physics and vice versa.
 
 🖼️ I'm currently really hyped by generative models (for 2D/3D imaging, variational inference, ViTs, multi-modal...) but I'm always excited to learn new and exotic research!
 
-If you're interested in having a chat, please feel free to contact me!
+If you're interested in having a chat, please feel free to contact me! 
