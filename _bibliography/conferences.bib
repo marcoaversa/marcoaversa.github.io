@@ -15,7 +15,6 @@
   with over 11,000 annotations covering 15 damage types across various subjects and media. We evaluate CNN, Transformer, and 
   text-guided diffusion segmentation models, revealing their limitations in generalising across media types.},
   website={https://visarts.eu},
-  bibtex_show={false}
 }
 
 @article{nobis2023generative,
@@ -30,8 +29,6 @@
    diffusion models (GFDM) with driving noise converging to a non-Markovian process of infinite quadratic variation. The Hurst 
    index $H\in(0,1)$ of FBM enables control of the roughness of the distribution transforming path. To the best of our knowledge, 
    this is the first attempt to build a generative model upon a stochastic process with infinite quadratic variation.},
-  website={https://neurips.cc/virtual/2023/74891},
-  bibtex_show={false}
 }
 
 
@@ -48,29 +45,34 @@
    index $H\in(0,1)$ of FBM enables control of the roughness of the distribution transforming path. To the best of our knowledge, 
    this is the first attempt to build a generative model upon a stochastic process with infinite quadratic variation.},
   website={https://neurips.cc/virtual/2023/74891},
-  bibtex_show={false}
-}
-
-@article{nobis2023generative,
-  abbr={NeurIPS},
-  title={Generative Fractional Diffusion Models},
-  author={Gabriel Nobis Maximilian Springenberg and Marco Aversa and Michael Detzel and Stefano Ermon and Shinichi Nakajima and Roderick Murray-Smith and Sebastian Lapuschkin and Christoph Knochenhauer and Luis Oala and Wojciech Samek},
-  booktitle={NeurIPS 2023 Workshop on Diffusion Models},
-  year={2023},
-  abstract={We generalize the continuous time framework for score-based generative models from an underlying Brownian motion (BM)
-   to an approximation of fractional Brownian motion (FBM). We derive a continuous reparameterization trick and the reverse time 
-   model by representing FBM as a stochastic integral over a family of Ornstein-Uhlenbeck processes to define generative fractional 
-   diffusion models (GFDM) with driving noise converging to a non-Markovian process of infinite quadratic variation. The Hurst 
-   index $H\in(0,1)$ of FBM enables control of the roughness of the distribution transforming path. To the best of our knowledge, 
-   this is the first attempt to build a generative model upon a stochastic process with infinite quadratic variation.},
-  website={https://neurips.cc/virtual/2023/74891},
-  bibtex_show={false}
 }
 
 @article{oala2023datadiff,
   abbr={ICML},
   title={Data Models for Dataset Drift Controls in Machine Learning With Optical Images},
   author={Oala, Luis and Aversa, Marco and Nobis, Gabriel and Willis, Kurt and Neuenschwander, Yoan and Buck, Mich{\`e}le and Matek, Christian and Extermann, Jerome and Pomarico, Enrico and Samek, Wojciech and others},
+  abstract={Camera images are ubiquitous in machine learning research. 
+  They also play a central role in the delivery of important public services spanning medicine or environmental surveying. 
+  However, the application of machine learning models in these domains has been limited because of robustness concerns. 
+  A primary failure mode are performance drops due to differences between the training and deployment data. 
+  While there are methods to prospectively validate the robustness of machine learning models to such dataset drifts, 
+  existing approaches do not account for explicit models of machine learning's primary object of interest: 
+  the data. This limits our ability to study and understand the relationship between data generation and 
+  downstream machine learning model performance in a physically accurate manner. 
+  In this study, we demonstrate how to overcome this limitation by pairing traditional machine learning 
+  with physical optics to obtain explicit and differentiable data models. We demonstrate how such data models can 
+  be constructed for image data and used to control downstream machine learning model performance related to dataset drift. 
+  The findings are distilled into three applications. First, drift synthesis enables the controlled generation of physically 
+  faithful drift test cases to power model selection and targeted generalization. Second, the gradient connection between 
+  machine learning task model and data model allows advanced, precise tolerancing of task model sensitivity to changes 
+  in the data generation. These drift forensics can be used to precisely specify the acceptable data environments in which 
+  a task model may be run. Third, drift optimization opens up the possibility to create drifts that can help the task model 
+  learn better faster, effectively optimizing the data generating process itself to support the downstream machine vision task. 
+  This is an interesting upgrade to existing imaging pipelines which traditionally have been optimized to be consumed by human 
+  users but not machine learning models. Alongside the data model code we release two datasets to the public that we collected 
+  as part of this work. In total, the two datasets, Raw-Microscopy and Raw-Drone, comprise 1,488 scientifically calibrated reference 
+  raw sensor measurements, 8,928 raw intensity variations as well as 17,856 images processed through twelve data models with different 
+  configurations. A guide to access the open code and datasets is available at https://github.com/aiaudit-org/raw2logit.},
   journal={International Conference on Machine Learning, Differentiable Almost Everything Workshop},
   year={2023},
 }
@@ -79,6 +81,28 @@
   abbr={ICML},
   title={Data Models for Dataset Drift Controls in Machine Learning With Optical Images},
   author={Oala, Luis and Aversa, Marco and Nobis, Gabriel and Willis, Kurt and Neuenschwander, Yoan and Buck, Mich{\`e}le and Matek, Christian and Extermann, Jerome and Pomarico, Enrico and Samek, Wojciech and others},
+  abstract={Camera images are ubiquitous in machine learning research. 
+  They also play a central role in the delivery of important public services spanning medicine or environmental surveying. 
+  However, the application of machine learning models in these domains has been limited because of robustness concerns. 
+  A primary failure mode are performance drops due to differences between the training and deployment data. 
+  While there are methods to prospectively validate the robustness of machine learning models to such dataset drifts, 
+  existing approaches do not account for explicit models of machine learning's primary object of interest: 
+  the data. This limits our ability to study and understand the relationship between data generation and 
+  downstream machine learning model performance in a physically accurate manner. 
+  In this study, we demonstrate how to overcome this limitation by pairing traditional machine learning 
+  with physical optics to obtain explicit and differentiable data models. We demonstrate how such data models can 
+  be constructed for image data and used to control downstream machine learning model performance related to dataset drift. 
+  The findings are distilled into three applications. First, drift synthesis enables the controlled generation of physically 
+  faithful drift test cases to power model selection and targeted generalization. Second, the gradient connection between 
+  machine learning task model and data model allows advanced, precise tolerancing of task model sensitivity to changes 
+  in the data generation. These drift forensics can be used to precisely specify the acceptable data environments in which 
+  a task model may be run. Third, drift optimization opens up the possibility to create drifts that can help the task model 
+  learn better faster, effectively optimizing the data generating process itself to support the downstream machine vision task. 
+  This is an interesting upgrade to existing imaging pipelines which traditionally have been optimized to be consumed by human 
+  users but not machine learning models. Alongside the data model code we release two datasets to the public that we collected 
+  as part of this work. In total, the two datasets, Raw-Microscopy and Raw-Drone, comprise 1,488 scientifically calibrated reference 
+  raw sensor measurements, 8,928 raw intensity variations as well as 17,856 images processed through twelve data models with different 
+  configurations. A guide to access the open code and datasets is available at https://github.com/aiaudit-org/raw2logit.},
   journal={International Conference on Machine Learning, Spurious Correlations, Invariance, and Stability Workshop},
   year={2023}
 }

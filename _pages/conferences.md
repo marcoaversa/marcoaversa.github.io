@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /conferences/
-title: conferences
+permalink: /workshops/
+title: workshops
 description: 
 nav: true
 nav_order: 1

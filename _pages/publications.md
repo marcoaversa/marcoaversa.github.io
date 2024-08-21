@@ -12,3 +12,11 @@ nav_order: 1
 {% bibliography -f {{ site.scholar.bibliography }} %}
 
 </div>
+
+# Workshop Papers 
+
+<div class="publications">
+
+{% bibliography -f conferences.bib %}
+
+</div>
