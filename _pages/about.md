@@ -22,9 +22,9 @@ social: false  # includes social icons at the bottom of the page
 
 My interests span across Data-Centric AI, Physics-Infused Neural Networks, Generative Models and Optical Neural Networks. Each of these domains represents a step towards bridging the gap between the deterministic world of physics and the evolving landscape of machine learning.  -->
 
-Hi! I'm a passionate Researcher deeply passionate about the intersection of Machine Learning, Generative Models and Physics. 
+Hi! I'm a Researcher deeply passionate about the intersection of Machine Learning, Generative Models and Physics. 
 
-Given how quickly the world moves, I don't want to take up too much of your time. Here's a quick bullet list about me!
+With the world moving so quickly, I don't want to take up too much of your time. Here's a quick bullet list about me!
 
 💼 I’m currently working at [Dotphoton](https://www.dotphoton.com), where I design scalable data infrastructures and develop generative models for industrial applications.
 

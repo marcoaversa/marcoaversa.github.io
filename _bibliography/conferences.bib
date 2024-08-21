@@ -1,7 +1,57 @@
 ---
 ---
 
-@inproceedings{nobis2023generative,
+
+@article{ivanova2024visart,
+  abbr={ECCV},
+  title={State-of-the-Art Fails in the Art of Damage Detection},
+  author={Daniela Ivanova and Marco Aversa and Paul Henderson and John Williamson},
+  booktitle={ECCV 2024 Vision for Art Workshop VISART},
+  year={2024},
+  abstract={Accurately detecting and classifying damage in analogue media such as paintings, photographs, textiles, mosaics, 
+  and frescoes is essential for cultural heritage preservation. While machine learning models excel in correcting global degradation 
+  if the damage operator is known a priori, we show that they fail to predict where the damage is even after supervised training; 
+  thus, reliable damage detection remains a challenge. We introduce DamBench, a dataset for damage detection in diverse analogue media, 
+  with over 11,000 annotations covering 15 damage types across various subjects and media. We evaluate CNN, Transformer, and 
+  text-guided diffusion segmentation models, revealing their limitations in generalising across media types.},
+  website={https://visarts.eu},
+  bibtex_show={false}
+}
+
+@article{nobis2023generative,
+  abbr={ICML},
+  title={Generative Fractional Diffusion Models},
+  author={Gabriel Nobis and Maximilian Springenberg and Marco Aversa and Michael Detzel and Stefano Ermon and Shinichi Nakajima and Roderick Murray-Smith and Sebastian Lapuschkin and Christoph Knochenhauer and Luis Oala and Wojciech Samek},
+  booktitle={ICML 2024 Workshop on Structured Probabilistic Inference & Generative Modeling},
+  year={2024},
+  abstract={We generalize the continuous time framework for score-based generative models from an underlying Brownian motion (BM)
+   to an approximation of fractional Brownian motion (FBM). We derive a continuous reparameterization trick and the reverse time 
+   model by representing FBM as a stochastic integral over a family of Ornstein-Uhlenbeck processes to define generative fractional 
+   diffusion models (GFDM) with driving noise converging to a non-Markovian process of infinite quadratic variation. The Hurst 
+   index $H\in(0,1)$ of FBM enables control of the roughness of the distribution transforming path. To the best of our knowledge, 
+   this is the first attempt to build a generative model upon a stochastic process with infinite quadratic variation.},
+  website={https://neurips.cc/virtual/2023/74891},
+  bibtex_show={false}
+}
+
+
+@article{nobis2023generative,
+  abbr={NeurIPS},
+  title={Generative Fractional Diffusion Models},
+  author={Gabriel Nobis and Maximilian Springenberg and Marco Aversa and Michael Detzel and Stefano Ermon and Shinichi Nakajima and Roderick Murray-Smith and Sebastian Lapuschkin and Christoph Knochenhauer and Luis Oala and Wojciech Samek},
+  booktitle={NeurIPS 2023 Workshop on Diffusion Models},
+  year={2023},
+  abstract={We generalize the continuous time framework for score-based generative models from an underlying Brownian motion (BM)
+   to an approximation of fractional Brownian motion (FBM). We derive a continuous reparameterization trick and the reverse time 
+   model by representing FBM as a stochastic integral over a family of Ornstein-Uhlenbeck processes to define generative fractional 
+   diffusion models (GFDM) with driving noise converging to a non-Markovian process of infinite quadratic variation. The Hurst 
+   index $H\in(0,1)$ of FBM enables control of the roughness of the distribution transforming path. To the best of our knowledge, 
+   this is the first attempt to build a generative model upon a stochastic process with infinite quadratic variation.},
+  website={https://neurips.cc/virtual/2023/74891},
+  bibtex_show={false}
+}
+
+@article{nobis2023generative,
   abbr={NeurIPS},
   title={Generative Fractional Diffusion Models},
   author={Gabriel Nobis Maximilian Springenberg and Marco Aversa and Michael Detzel and Stefano Ermon and Shinichi Nakajima and Roderick Murray-Smith and Sebastian Lapuschkin and Christoph Knochenhauer and Luis Oala and Wojciech Samek},
@@ -14,7 +64,7 @@
    index $H\in(0,1)$ of FBM enables control of the roughness of the distribution transforming path. To the best of our knowledge, 
    this is the first attempt to build a generative model upon a stochastic process with infinite quadratic variation.},
   website={https://neurips.cc/virtual/2023/74891},
-  bibtex_show={true}
+  bibtex_show={false}
 }
 
 @article{oala2023datadiff,
@@ -23,7 +73,6 @@
   author={Oala, Luis and Aversa, Marco and Nobis, Gabriel and Willis, Kurt and Neuenschwander, Yoan and Buck, Mich{\`e}le and Matek, Christian and Extermann, Jerome and Pomarico, Enrico and Samek, Wojciech and others},
   journal={International Conference on Machine Learning, Differentiable Almost Everything Workshop},
   year={2023},
-  selected={true}
 }
 
 @article{oala2023dataspurious,
@@ -57,6 +106,5 @@
   network robustness. We jointly optimize a parameterized differentiable image
   processing pipeline with a neural network model. This can lead to speed up and
   stabilization of classifier training at a margin of up to 20\% in validation accuracy.},
-  bibtex_show={true},
   year={2022}
 }
