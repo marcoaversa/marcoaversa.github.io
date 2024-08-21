@@ -1,0 +1,62 @@
+---
+---
+
+@inproceedings{nobis2023generative,
+  abbr={NeurIPS},
+  title={Generative Fractional Diffusion Models},
+  author={Gabriel Nobis Maximilian Springenberg and Marco Aversa and Michael Detzel and Stefano Ermon and Shinichi Nakajima and Roderick Murray-Smith and Sebastian Lapuschkin and Christoph Knochenhauer and Luis Oala and Wojciech Samek},
+  booktitle={NeurIPS 2023 Workshop on Diffusion Models},
+  year={2023},
+  abstract={We generalize the continuous time framework for score-based generative models from an underlying Brownian motion (BM)
+   to an approximation of fractional Brownian motion (FBM). We derive a continuous reparameterization trick and the reverse time 
+   model by representing FBM as a stochastic integral over a family of Ornstein-Uhlenbeck processes to define generative fractional 
+   diffusion models (GFDM) with driving noise converging to a non-Markovian process of infinite quadratic variation. The Hurst 
+   index $H\in(0,1)$ of FBM enables control of the roughness of the distribution transforming path. To the best of our knowledge, 
+   this is the first attempt to build a generative model upon a stochastic process with infinite quadratic variation.},
+  website={https://neurips.cc/virtual/2023/74891},
+  bibtex_show={true}
+}
+
+@article{oala2023datadiff,
+  abbr={ICML},
+  title={Data Models for Dataset Drift Controls in Machine Learning With Optical Images},
+  author={Oala, Luis and Aversa, Marco and Nobis, Gabriel and Willis, Kurt and Neuenschwander, Yoan and Buck, Mich{\`e}le and Matek, Christian and Extermann, Jerome and Pomarico, Enrico and Samek, Wojciech and others},
+  journal={International Conference on Machine Learning, Differentiable Almost Everything Workshop},
+  year={2023},
+  selected={true}
+}
+
+@article{oala2023dataspurious,
+  abbr={ICML},
+  title={Data Models for Dataset Drift Controls in Machine Learning With Optical Images},
+  author={Oala, Luis and Aversa, Marco and Nobis, Gabriel and Willis, Kurt and Neuenschwander, Yoan and Buck, Mich{\`e}le and Matek, Christian and Extermann, Jerome and Pomarico, Enrico and Samek, Wojciech and others},
+  journal={International Conference on Machine Learning, Spurious Correlations, Invariance, and Stability Workshop},
+  year={2023}
+}
+
+@article{aversaphysical,
+  abbr={NeurIPS},
+  award={Contributed Talk},
+  title={Physical Data Models in Machine Learning Imaging Pipelines},
+  journal={Advances in Neural Information Processing Systems, Machine Learning and the Physical Science Workshop},
+  author={Aversa, Marco and Oala, Luis and Clausen, Christoph and Murray-Smith, Roderick and Sanguinetti, Bruno},
+  pdf={https://ml4physicalsciences.github.io/2022/files/NeurIPS_ML4PS_2022_136.pdf},
+  website={https://neurips.cc/virtual/2022/56248},
+  abstract={Light propagates from the object through the optics up to the sensor to create an
+  image. Once the raw data is collected, it is processed through a complex image
+  signal processing (ISP) pipeline to produce an image compatible with human
+  perception. However, this processing is rarely considered in machine learning
+  modelling because available benchmark data sets are generally not in raw format.
+  This study shows how to embed the forward acquisition process into the machine
+  learning model. We consider the optical system and the ISP separately. Following
+  the acquisition process, we start from a drone and airship image dataset to emulate
+  realistic satellite raw images with on-demand parameters. The end-to-end process
+  is built to resemble the optics and sensor of the satellite setup. These parameters
+  are satellite mirror size, focal length, pixel size and pattern, exposure time and
+  atmospheric haze. After raw data collection, the ISP plays a crucial role in neural
+  network robustness. We jointly optimize a parameterized differentiable image
+  processing pipeline with a neural network model. This can lead to speed up and
+  stabilization of classifier training at a margin of up to 20\% in validation accuracy.},
+  bibtex_show={true},
+  year={2022}
+}
