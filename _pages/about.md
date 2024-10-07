@@ -32,6 +32,6 @@ With the world moving so quickly, I don't want to take up too much of your time.
 
 🔬 3+ years of experience with generative models / diffusion models / machine learning in physics and vice versa.
 
-🖼️ I'm currently really hyped by generative models (for 2D/3D imaging, variational inference, ViTs, multi-modal...) but I'm always excited to learn new and exotic research!
+🖼️ I'm currently really hyped by generative models (for 2D/3D imaging, self-supervised learning, ViTs, DiTs, multi-modal...) but I'm always excited to learn new and exotic research!
 
 If you're interested in having a chat, please feel free to contact me! 
