@@ -18,14 +18,28 @@
   ],
   "work": [
     {
-      "name": "DotPhoton AC",
-      "position": "Researcher",
+      "name": "Dotphoton",
+      "position": "Senior Research Scientist",
+      "url": "https://www.dotphoton.com/",
+      "startDate": "2024-01",
+      "highlights": [
+        "Developing 3D scene quality enhancement using 2D pre-trained diffusion models.",
+        "Created unsupervised zero-shot segmentation algorithm leveraging self-attention masks from foundation models, outperforming state-of-the-art methods by 35% in F1-score.",
+        "Improved industrial manufacturing efficiency by developing an unsupervised anomaly detection algorithm that combines sensor properties with generative models.",
+        "Designed and developed Jetraw’s data loading pipeline to handle large-scale machine learning training on AWS.",
+        "Improved platform accessibility and user experience for developers by creating Jetraw’s Python interface."
+      ]
+    },
+    {
+      "name": "Dotphoton",
+      "position": "Research Scientist",
       "url": "https://www.dotphoton.com/",
       "startDate": "2020-03",
+      "endDate": "2023-12",
       "highlights": [
-        "Led the histopathology group in the European Synthetic Realistic (SyReal) project.",
-        "Collaborated with industrial and academic research groups (HEPIA, Fraunhofer HHI, University of California, AIgnostics, LMU Munich).",
-        "Developed end-to-end features for ML cloud service."
+        "Led the histopathology research team in the SyReal project. Designed and developed DiffInfinite, a diffusion model sampling method that generated whole slide images with semantic segmentation masks from only 2% labeled data, improving carcinoma detection accuracy by ∼ 15%.",
+        "Developed a cost-effective framework for satellite model evaluation using synthetic data from labeled drone imagery, enabling robust benchmarking of machine learning algorithms without the need for real satellite images.",
+        "Improved model accuracy by 20% and enhanced reliability in medical imaging applications by integrating differentiable raw image data processing into machine learning systems, reducing dependency on large datasets."
       ]
     },
     {
