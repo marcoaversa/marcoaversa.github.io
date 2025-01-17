@@ -1,9 +1,34 @@
 ---
 ---
+
+@article{ivanova2024unsupervisedsegmentationdiffusingwalking,
+      abbr={ArXiv},
+      title={Unsupervised Segmentation by Diffusing, Walking and Cutting}, 
+      author={Daniela Ivanova and Marco Aversa and Paul Henderson and John Williamson},
+      journal={ArXiv preprint},
+      year={2025},
+      abstract={We propose an unsupervised image segmentation method using features from pre-trained text-to-image diffusion models. 
+      Inspired by classic spectral clustering approaches, we construct adjacency matrices from self-attention layers between image 
+      patches and recursively partition using Normalised Cuts. A key insight is that self-attention probability distributions, which 
+      capture semantic relations between patches, can be interpreted as a transition matrix for random walks across the image. 
+      We leverage this by first using Random Walk Normalized Cuts directly on these self-attention activations to partition the image, 
+      minimizing transition probabilities between clusters while maximizing coherence within clusters. Applied recursively, 
+      this yields a hierarchical segmentation that reflects the rich semantics in the pre-trained attention layers, without any additional training. 
+      Next, we explore other ways to build the NCuts adjacency matrix from features, and how we can use the random walk interpretation of 
+      self-attention to capture long-range relationships. Finally, we propose an approach to automatically determine the NCut cost criterion, 
+      avoiding the need to tune this manually. We quantitatively analyse the effect incorporating different features, a constant versus dynamic 
+      NCut threshold, and incorporating multi-node paths when constructing the NCuts adjacency matrix. We show that our approach surpasses all 
+      existing methods for zero-shot unsupervised segmentation, achieving state-of-the-art results on COCO-Stuff-27 and Cityscapes.},
+      eprint={2412.04678},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.04678}
+}
+
 @article{ivanova2025artefact,
       abbr={WACV},
       title={ARTeFACT: Benchmarking Segmentation Models on Diverse Analogue Media Damage}, 
-      author={Daniela Ivanova and Marco Aversa and Paul Henderson, John Williamson},
+      author={Daniela Ivanova and Marco Aversa and Paul Henderson and John Williamson},
       journal={IEEE/CVF Winter Conference on Applications of Computer Vision },
       year={2025},
       abstract={Accurately detecting and classifying damage in analogue media such as paintings, photographs, textiles, mosaics, 
